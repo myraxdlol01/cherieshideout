@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ body {
+      background: linear-gradient(120deg, #1a1a1a, #2c003e);
+      color: #f9caff;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #ff88dd;
+      font-family: "Georgia", serif;
+      text-shadow: 0 0 8px #ff80c0;
+    }
+
+    p {
+      font-size: 0.95em;
+      opacity: 0.6;
+      margin-bottom: 30px;
+    }
+
+    .image-container img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #ffb3ec;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #ffb3ec;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    .myButton {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 25px;
+      font-size: 1em;
+      font-family: monospace;
+      color: #fff;
+      background-color: #ff69b4;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 15px #ff8de1;
+      transition: 0.3s ease;
+    }
+
+    .myButton:hover {
+      background-color: #ff90dd;
+      color: black;
+      box-shadow: 0 0 25px #ff90dd;
+    }
+
+    .player {
+      margin-top: 40px;
+      border: 2px dashed #ff8de1;
+      padding: 20px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 10px #ffb3ec;
+    }
+
+    .player .title {
+      font-size: 1.1em;
+      color: #ffb3ec;
+      margin-bottom: 10px;
+    }
+
+    .controls button {
+      background-color: transparent;
+      color: #ff9be6;
+      border: 2px solid #ff8de1;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-family: monospace;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff8de1;
+      transition: 0.3s ease;
+    }
+
+    .controls button:hover {
+      background-color: #ffb3ec;
+      color: black;
+    }
+
+    /* Sparkle emoji decoration */
+    .sparkle {
+      animation: float 2s infinite ease-in-out;
+      font-size: 1.2em;
+      margin: 0 4px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }

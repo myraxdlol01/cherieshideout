@@ -1,0 +1,90 @@
+ body {
+      background: linear-gradient(135deg, #1a1a1a, #3b004e);
+      color: #fce4ff;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #ff88dd;
+      font-family: 'Georgia', serif;
+      margin-bottom: 15px;
+      text-shadow: 0 0 8px #ff9be6;
+    }
+
+    .section-box {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 2px dashed #ff8de1;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 25px auto;
+      max-width: 600px;
+      box-shadow: 0 0 15px #ffb3ec;
+    }
+
+    .section-title {
+      font-size: 1.3em;
+      color: #ffcfff;
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    .section-subtext {
+      opacity: 0.7;
+      font-size: 0.95em;
+      margin-bottom: 20px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .image-container img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 3px solid #ffb3ec;
+      border-radius: 12px;
+      box-shadow: 0 0 12px #ff8de1;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 20px #ffb3ec;
+    }
+
+    .myButton {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 25px;
+      font-size: 1em;
+      font-family: monospace;
+      color: #fff;
+      background-color: #ff69b4;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 15px #ff8de1;
+      transition: 0.3s ease;
+    }
+
+    .myButton:hover {
+      background-color: #ff90dd;
+      color: black;
+      box-shadow: 0 0 25px #ff90dd;
+    }
+
+    @media (max-width: 600px) {
+      .image-container img {
+        width: 80px;
+        height: 80px;
+      }
+    }
